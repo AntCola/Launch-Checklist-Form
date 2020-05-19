@@ -5,10 +5,7 @@ window.addEventListener('load', function () {
   let coPilotInput = document.querySelector('input[name=copilotName]');
   let fuelInput = document.querySelector('input[name=fuelLevel]');
   let cargoInput = document.querySelector('input[name=cargoMass]');
-  //   let pilotName;
-  //   let coPilotName;
-  //   let fuelValue;
-  //   let cargoValue;
+
   form.addEventListener('submit', function (event) {
     //Make sure that user inputted something
     switch ('') {
@@ -104,15 +101,3 @@ window.addEventListener('load', function () {
     event.preventDefault();
   });
 });
-
-/* This block of code shows how to format the HTML once you fetch some planetary JSON!
-<h2>Mission Destination</h2>
-<ol>
-   <li>Name: ${}</li>
-   <li>Diameter: ${}</li>
-   <li>Star: ${}</li>
-   <li>Distance from Earth: ${}</li>
-   <li>Number of Moons: ${}</li>
-</ol>
-<img src="${}">
-*/
